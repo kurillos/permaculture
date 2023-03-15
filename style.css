@@ -20,11 +20,49 @@ h1 {
     font-size: 5em;
     padding: 200px 0 0 20%; 
     text-shadow: -3px 3px 2px #BCF5A9;
+    animation: mainTitle ease 5s;
 }
 
-@keyframes maintitle {
+/* ***************LEFT PART *************** */
+
+#leftPart {
+    background-color: #BCF5A9;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.elements {
+    padding: 70px 0;
+}
+
+.elements img {
+    border-radius: 100%;
+    width: 200px;
+}
+
+.elements p {
+    font-size: 1.2em;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    padding-right: 20px;
+}
+
+.elements .button {
+    text-align: right;
+    margin: 15px 4% 0 0;
+}
+
+@keyframes mainTitle {
     0% {
         opacity: 0;
-        transform: translate(0px, 180px);
+        transform: translateY(180px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
     }
 }
+
