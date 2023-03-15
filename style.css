@@ -7,6 +7,15 @@ h2, h3, h4, .nav-item, #transition, footer {
 }
 
 /* *****************HEADER***************** */
+.collapse {
+    margin-left: 4%;
+}
+
+.nav-item {
+    color: darkslategray;
+    font-weight: bold;
+    padding-right: 45px;
+}
 
 header {
   background: url('./media/main.jpg') no-repeat 50% 50%;
@@ -129,6 +138,10 @@ footer {
     background-color: #BCF5A9;
     padding: 15px 0 4px 0;
 }
+
+/* ***************MEDIA QUERIES*************** */
+
+/* ***************KEYFRAMES*************** */
 
 @keyframes mainTitle {
     0% {
